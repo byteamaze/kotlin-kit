@@ -1,4 +1,4 @@
-package com.domobile.arch.actions
+package com.byteamaze.kotlinkit.actions
 
 /**
  * 向内传送的事件实体

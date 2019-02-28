@@ -1,8 +1,8 @@
-package com.domobile.arch.dispatcher
+package com.byteamaze.kotlinkit.dispatcher
 
 import android.text.TextUtils
-import com.domobile.arch.actions.Action
-import com.domobile.arch.store.Store
+import com.byteamaze.kotlinkit.actions.Action
+import com.byteamaze.kotlinkit.store.Store
 import com.hwangjr.rxbus.Bus
 import com.hwangjr.rxbus.RxBus
 

@@ -1,6 +1,6 @@
-package com.domobile.arch.actions
+package com.byteamaze.kotlinkit.actions
 
-import com.domobile.arch.dispatcher.Dispatcher
+import com.byteamaze.kotlinkit.dispatcher.Dispatcher
 
 /**
  * 事件创建者

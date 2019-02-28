@@ -1,4 +1,4 @@
-package com.domobile.arch.proxy
+package com.byteamaze.kotlinkit.proxy
 
 /**
  * 数据传输代理

@@ -1,6 +1,6 @@
-package com.domobile.arch.realm
+package com.byteamaze.kotlinkit.realm
 
-import com.domobile.arch.extension.app
+import com.byteamaze.kotlinkit.extension.app
 import io.reactivex.Observable
 import io.reactivex.ObservableEmitter
 import io.reactivex.schedulers.Schedulers

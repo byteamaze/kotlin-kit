@@ -1,4 +1,4 @@
-package com.domobile.arch.proxy
+package com.byteamaze.kotlinkit.proxy
 
 import android.app.Application
 import android.content.Context.WINDOW_SERVICE

@@ -1,4 +1,4 @@
-package com.domobile.arch.extension
+package com.byteamaze.kotlinkit.extension
 
 import android.app.Application
 import android.content.Context
@@ -9,7 +9,7 @@ import android.graphics.Point
 import android.util.TypedValue
 import android.view.*
 import android.widget.Toast
-import com.domobile.arch.proxy.ApplicationProxy
+import com.byteamaze.kotlinkit.proxy.ApplicationProxy
 import java.util.*
 
 // SETTINGS，系统设置包名

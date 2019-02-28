@@ -1,6 +1,6 @@
-package com.domobile.arch.store
+package com.byteamaze.kotlinkit.store
 
-import com.domobile.arch.dispatcher.Dispatcher
+import com.byteamaze.kotlinkit.dispatcher.Dispatcher
 
 /**
  * 数据操作类

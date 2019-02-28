@@ -1,0 +1,48 @@
+apply plugin: 'com.android.library'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'maven'
+
+group = 'com.github.ByteAmaze'
+
+def version = 1
+def libraryVersion = '1.0'
+
+//if (realm_enabled) {
+//    apply plugin: 'kotlin-kapt'
+//    apply plugin: 'realm-android'
+//}
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        minSdkVersion 17
+        versionCode version
+        versionName libraryVersion
+    }
+
+//    sourceSets {
+//        if (realm_enabled) {
+//            main.java.srcDirs += "src/main/realm"
+//        }
+//    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    // RX
+    api 'io.reactivex.rxjava2:rxjava:2.2.7'
+    api 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    api 'io.reactivex.rxjava2:rxkotlin:2.3.0'
+    api 'com.hwangjr.rxbus:rxbus:2.+'
+}
