@@ -4,10 +4,10 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
-if (realm_enabled) {
-    apply plugin: 'kotlin-kapt'
-    apply plugin: 'realm-android'
-}
+//if (realm_enabled) {
+//    apply plugin: 'kotlin-kapt'
+//    apply plugin: 'realm-android'
+//}
 
 android {
     compileSdkVersion 28
@@ -17,9 +17,9 @@ android {
     }
 
     sourceSets {
-        if (realm_enabled) {
-            main.java.srcDirs += "src/main/realm"
-        }
+//        if (realm_enabled) {
+//            main.java.srcDirs += "src/main/realm"
+//        }
     }
 
     lintOptions {
